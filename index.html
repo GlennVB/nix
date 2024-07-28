@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no">
+  <title>
+    Nix - Nekker's Poel [Strauntmaunt Productions]
+  </title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="playerContainer">
+    <!-- Top Info -->
+    <div>
+      <h1>Nix - Nekker's Poel (2024)</h1>
+    </div>
+
+    <div id="title">
+      <span id="track"></span>
+      <div id="timer">0:00</div>
+      <div id="duration">0:00</div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controlsOuter">
+      <div class="controlsInner">
+        <div id="loading"></div>
+        <div class="btn" id="playBtn"></div>
+        <div class="btn" id="pauseBtn"></div>
+        <div class="btn" id="prevBtn"></div>
+        <div class="btn" id="nextBtn"></div>
+      </div>
+      <div class="btn" id="playlistBtn"></div>
+      <div class="btn" id="volumeBtn"></div>
+    </div>
+
+    <div id="progressContainer">
+      <!-- Progress -->
+      <div id="waveform"></div>
+      <div id="bar"></div>
+      <div id="progress"></div>
+    </div>
+
+    <!-- Volume -->
+    <div id="volume" class="fadeout">
+      <div id="barFull" class="bar"></div>
+      <div id="barEmpty" class="bar"></div>
+      <div id="sliderBtn"></div>
+    </div>
+  </div>
+  <div>
+    <h2>TRACKLIST</h2>
+
+    <!-- Playlist -->
+    <div id="playlist">
+      <div id="list"></div>
+    </div>
+
+    <h2>LYRICS</h2>
+    <h3>
+        1. Eenzame Wateren
+    </h3>
+    <p>
+        In de eenzame wateren van mijn ziel,  
+        <br>Waar het donker de overhand neemt,  
+        <br>Zwem ik in verdriet en angst,  
+        <br>Tot het diepste van de put.
+    </p>
+    <p>
+        In de koude diepten van mijn gedachten,
+        <br>Waar de leegte alles overneemt,
+        <br>Verlies ik mezelf in verloren tijd,
+        <br>Zolang de mist alles omhult.
+    </p>
+    <p>
+        Geen plek om thuis te noemen,
+        <br>Geen plek om lang te zijn,
+        <br>Alleen in deze eenzame wateren,
+        <br>Alleen waar het donker lijkt te zijn.
+    </p>
+    <p>
+        De tijd verstrijkt in korte adem.
+    </p>
+
+    <h3>
+        2. Schimmen van het Verleden
+    </h3>
+    <p>
+        Schimmen van het verleden,  
+        <br>Dwalen door de mist,  
+        <br>Beelden van wat ooit was,  
+        <br>Verloren in het duistere zicht.  
+    </p>
+    <p>
+        Herinneringen vervagen langzaam,  
+        <br>Verdrongen door de tijd,  
+        <br>Schimmen van het verleden,  
+        <br>Verloren in de eeuwigheid.
+    </p>
+
+    <h3>
+        3. In Schaduw, een Eenzaam Lied
+    </h3>
+    <p>
+        [Verse]
+        <br>De schaduw valt over de straten,
+        <br>Een deken van beton en staal,
+        <br>Waar eens de natuur vrij ademde,
+        <br>Nu verstikt door de schaduw van de stad.
+    </p>
+    <p>
+        [Chorus]
+        <br>In stilte roep ik naar de maan,
+        <br>Mijn verdriet om wat verloren is,
+        <br>In de duisternis zoek ik naar een plan,
+        <br>Een antwoord dat nooit zichtbaar is.
+    </p>
+    <p>
+      [Verse 2]
+      <br>De sterren schuilen in de schemer,
+      <br>Verloren achter een wolkenbed,
+      <br>De natuur zucht onder het gewicht,
+      <br>Van de leegte die de stilte heeft gezet.
+  </p>
+  <p>
+    [Chorus]
+    <br>In stilte roep ik naar de maan,
+    <br>Mijn verdriet om wat verloren is,
+    <br>In de duisternis zoek ik naar een plan,
+    <br>Een antwoord dat nooit zichtbaar is.
+</p>
+    <p>
+        [Bridge]
+        <br>De schaduwen dansen op de muren,
+        <br>Van de gebouwen die het zicht ontnemen,
+        <br>In de duisternis zoek ik naar een glimps,
+        <br>Van de vrijheid die nu verdwenen is.
+    </p>
+    <p>
+        [Outro]
+        <br>De wind fluistert door de lege straten,
+        <br>Een treurig lied van wat ooit was,
+        <br>In de schaduw van de stadsverlichting,
+        <br>Vindt mijn ziel geen enkele rust.
+    </p>
+
+    <h3>
+        4. In de shadow van de Toren Deel 1
+    </h3>
+    <p>
+        Diep in 't duister, waar de stilte zweeft,
+        <br>Nix waakt over 't water, waar het riet beweegt.
+        <br>Een wachter van de wildernis, in 't groene woud,
+        <br>Een fluistering van oud bloed, met geheimen omhuld.
+    </p>
+    <p>
+        In de schaduw van het moeras, waar leven kruipt,
+        <br>Een geest van de wateren, door eenzaamheid gedrijfd.
+        <br>Met de kracht van eeuwen, hij de natuur beschermt,
+        <br>Maar de dreiging van buiten, zijn ziel verdoemd.
+    </p>
+    <p>
+        Steden rijzen, zoals stenen groeiend kwaad,
+        <br>Mensenkinderen treden zwaar, breken 't zachte zaad.
+        <br>Geloof rolt als donder, door de bomen heen,
+        <br>Breekt de wortels, snijdt de draden, dieper dan de steen.
+    </p>
+    <p>
+        In de schaduw van het moeras, waar leven kruipt,
+        <br>Een geest van de wateren, door eenzaamheid gedrijfd.
+        <br>Met de kracht van eeuwen, hij de natuur beschermt,
+        <br>Maar de dreiging van buiten, zijn ziel verdoemd.
+    </p>
+
+    <h3>
+        5. In de shadow van de Toren Deel 2
+    </h3>
+    <p>
+        Nix staart naar de horizon, de lucht bedorven rood,
+        <br>Gebroken is het groene hart, dat ooit harmonie bood.
+        <br>De zingende vogels, zwijgen nu voor altijd,
+        <br>Het kwaken van de kikkers, gedoofd door de tijd.
+    </p>
+    <p>
+        In de tranen van de aarde, waar het water stroomt,
+        <br>Een demon in verzet, in wanhoop verzonken.
+        <br>Zijn lied is een klaagzang, een echo van het verleden,
+        <br>Verloren in de duisternis, zijn ziel verlaten en verlegen.
+    </p>
+    <p>
+        Verblind door valse lichten, mensen zoeken goud,
+        <br>Vergetend de schoonheid, die in stilte woont en houdt.
+        <br>Nix voelt de pijn, van wortels losgescheurd,
+        <br>Zijn ziel wordt één met de duisternis, een toekomst ongekeurd.
+    </p>
+    <p>
+        In de tranen van de aarde, waar het water stroomt,
+        <br>Een demon in verzet, in wanhoop verzonken.
+        <br>Zijn lied is een klaagzang, een echo van het verleden,
+        <br>Verloren in de duisternis, zijn ziel verlaten en verlegen.
+    </p>
+    <p>
+        Geen hoop voor de wouden, geen vrede in 't riet,
+        <br>De demon Nix verdwijnt, zijn leven uitgewist.
+        <br>Het moeras wordt stil, een schaduw zonder naam,
+        <br>De natuur geketend, door menselijke waan.
+    </p>
+    <p>
+        Nekker's Poel
+    </p>
+
+    <h3>
+        6. In de Armen van de Nekker
+    </h3>
+    <p>
+        [Verse]
+        <br>De maan werpt een bleke schijn,
+        <br>Over het stille, diepe meer,
+        <br>Waar de wateren mijn zonden wassen,
+        <br>En de duisternis mijn zorgen verzacht.
+    </p>
+    <p>
+        [Chorus] (Instrumental)
+    </p>
+    <p>
+        [Verse 2]
+        <br>De sterren zijn mijn stille getuigen,
+        <br>Van een reis zonder terugkeer,
+        <br>In de armen van de Nekker,
+        <br>Verlies ik mezelf keer op keer.
+    </p>
+    <p>
+        [Chorus] (Instrumental)
+    </p>
+    <p>
+        [Bridge]
+        <br>De stroom leidt mij naar de rust,
+        <br>Waar de last van het verleden verdwijnt,
+        <br>In de armen van de Nekker,
+        <br>In de armen van de Nekker,
+    </p>
+    <p>
+        [Outro]
+        <br>Omarmd door koude golven,  
+        <br>Weggezonken in verdriet,  
+        <br>In de armen van de Nekker,  
+        <br>Vindt mijn geest haar lied.
+    </p>
+
+    <h3>
+        7. vaarwel
+    </h3>
+    <p>
+        Het koude water omhelst mijn lijf,
+        <br>Als een laatste, stille omhelzing,
+        <br>Verlies van de wereld, diep en zwaar,
+        <br>In de schaduw van de ondergang.
+    </p>
+    <p>
+        In de armen van de Nekker,  
+        <br>Vindt mijn ziel haar rust,  
+        <br>Verloren in de wateren,  
+        <br>Een eind aan al mijn lust. 
+    </p>
+    <p>
+        De golven wiegen mijn vermoeide lichaam,
+        <br>In een troostende, eeuwige slaap,
+        <br>In de armen van de Nekker,
+        <br>Is mijn ziel eindelijk vrij van haar kwaad.
+    </p>
+  </div>
+
+  <footer>
+    Music is generated between 21 and 28 July 2024 using Chat GPT and Suno.com
+  </footer>
+  <!-- Scripts -->
+  <script src="./howler.core.js"></script>
+  <script src="./siriwave.js"></script>
+  <script src="./player.js"></script>
+</body>
+</html>
