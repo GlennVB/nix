@@ -302,11 +302,11 @@ var player = new Player([
     file: 'In de Armen van de Nekker',
     howl: null
   },
-  // {
-  //   title: 'vaarwel',
-  //   file: 'vaarwel',
-  //   howl: null
-  // },
+  {
+    title: 'vaarwel (3:40)',
+    file: 'vaarwel',
+    howl: null
+  },
   {
     title: 'Rehearsal Recording (1:16)',
     file: 'Rehearsal Recording',
@@ -326,7 +326,12 @@ var player = new Player([
     title: 'In de Armen van de Nekker (#LikeNix) (3:00)',
     file: 'In de Armen van de Nekker (Radio Edit)',
     howl: null
-  }
+  },
+  {
+    title: 'vaarwel (#LikeNix) (3:24)',
+    file: 'vaarwel (Radio Edit)',
+    howl: null
+  },
 ]);
 
 // Bind our player controls.
