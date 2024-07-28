@@ -104,6 +104,7 @@ Player.prototype = {
           requestAnimationFrame(self.step.bind(self));
         }
       });
+      document.title = 'Nix - Nekker\'s Poel - ' + data.title + ' [Strauntmaunt Productions]';
     }
 
     // Begin playing the sound.
