@@ -293,8 +293,8 @@ var player = new Player([
     howl: null
   },
   {
-    title: 'In de schaduw van de Toren Deel 2 (4:00)',
-    file: 'In de shadow van de Toren Deel 2',
+    title: 'In de schaduw van de Toren Deel 2 (5:08)',
+    file: 'In de schaduw van de Toren Deel 2',
     howl: null
   },
   {
