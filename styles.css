@@ -263,17 +263,19 @@ p {
   position: relative;
   top: 0;
   left: 0;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 #list {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 800px;
   top: 0;
   left: 0;
 }
 .list-song {
   width: 100%;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   padding: 12px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.33);
