@@ -26,8 +26,10 @@ var Player = function(playlist) {
   // Display the title of the first track.
   track.innerHTML = '1. ' + playlist[0].title;
 
+  var county = 0;
   // Setup the playlist display.
   playlist.forEach(function(song) {
+    county++;
     if (song.file == 'Rehearsal Recording'){
       var div = document.createElement('div');
       div.className = 'list-header';
@@ -36,7 +38,7 @@ var Player = function(playlist) {
     }
     var div = document.createElement('div');
     div.className = 'list-song';
-    div.innerHTML = song.title;
+    div.innerHTML = county + '. ' + song.title;
     div.onclick = function() {
       player.skipTo(playlist.indexOf(song));
     };
