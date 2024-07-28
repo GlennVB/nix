@@ -28,6 +28,12 @@ var Player = function(playlist) {
 
   // Setup the playlist display.
   playlist.forEach(function(song) {
+    if (song.file == 'Rehearsal Recording'){
+      var div = document.createElement('div');
+      div.className = 'list-header';
+      div.innerHTML = 'Bonus Tracks (14:36)';
+      list.appendChild(div);
+    }
     var div = document.createElement('div');
     div.className = 'list-song';
     div.innerHTML = song.title;
@@ -273,7 +279,7 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'Eenzame Wateren (5:44)',
+    title: 'Eenzame Wateren (5:45)',
     file: 'Eenzame Wateren',
     howl: null
   },
@@ -288,12 +294,12 @@ var player = new Player([
     howl: null
   },
   {
-    title: 'In de schaduw van de Toren Deel 1 (3:15)',
+    title: 'In de schaduw van de Toren Deel 1 (3:14)',
     file: 'In de schaduw van de Toren Deel 1',
     howl: null
   },
   {
-    title: 'In de schaduw van de Toren Deel 2 (5:08)',
+    title: 'In de schaduw van de Toren Deel 2 (5:09)',
     file: 'In de schaduw van de Toren Deel 2',
     howl: null
   },
