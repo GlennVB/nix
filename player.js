@@ -273,7 +273,7 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'Eenzame Wateren (5:28)',
+    title: 'Eenzame Wateren (5:44)',
     file: 'Eenzame Wateren',
     howl: null
   },
